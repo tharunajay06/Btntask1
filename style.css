@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    background-color: #e3e6e6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    max-width: 100%;
+
+}
+.head{
+    position: relative;
+    left: 20%;
+}
+
+.list ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    gap: 30px;
+    list-style-type: none;
+    margin: 0;
+    padding:0 ;
+}
+.list ul li{
+    position: relative;
+    left: 450px;
+    top: 29px;
+}
+.list-top{
+    color: rgb(97, 96, 96);
+    text-decoration: none;
+}
+.login{
+    position: absolute;
+    top: 36px;
+    right: 80px;
+}
+.login img{
+    position: relative;
+    top: 9.5px;
+}
+.login a{
+    color: rgb(55, 165, 234);
+    text-decoration: none;
+}
+.bgimg{
+    background-repeat: none;
+    background-size: cover;
+    opacity: .5;
+}
+.middle{
+    color: black;
+}
+.card-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .card {
+      border: 2px solid black;
+      padding: 20px;
+      width: 300px;
+      text-align: center;
+    }
+
+    .card h2 {
+      font-size: 20px;
+      letter-spacing: 2px;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #555;
+    }
+
+    .card .time-price {
+      margin: 10px 0;
+      font-weight: bold;
+    }
+
+    .card button {
+      background-color: black;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .card button:hover {
+      background-color: #333;
+    }
